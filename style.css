@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 5%;
+}
+
+.header{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
