@@ -69,3 +69,11 @@ a{
     font-weight: 700;
     color: #f9faf8;
 }
+
+.hero img{
+    max-width: 500px;
+    height: auto;
+}
+
+
+
