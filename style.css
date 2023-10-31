@@ -110,14 +110,8 @@ a{
 }
 
 
-##.illust{
-    border: 5px solid;
-    border-radius: 10px;
-    display: inline-block;
-    margin: 10px;
-    padding: 50px;
-    border-color: #3882f6;
-}
+
+
 
 .illust img{
     border: 5px solid;
