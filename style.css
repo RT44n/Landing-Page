@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    flex: 1 0 auto;
 
     height: 100vh;
     margin: 0;
@@ -90,5 +91,34 @@ a{
     padding: 16px;
 }
 
+.illust-info-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.illust-info-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+.illust{
+    border: 5px solid;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    padding: 50px;
+    border-color: #3882f6;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
 
 
