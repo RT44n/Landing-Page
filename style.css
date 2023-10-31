@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    flex: 1 0 auto;
+    flex: 1 1 auto;
 
     height: 100vh;
     margin: 0;
@@ -50,6 +50,7 @@ a{
 
 .hero-text{
     max-width: 450px;
+    min-width: 300px;
 }
 
 .main-text{
@@ -140,4 +141,36 @@ a{
 .quote-credit{
     display: flex;
     align-self: flex-end;
+}
+
+.sign-up{
+   margin: 5%;
+   margin-bottom: 5%;
+   border: 5%;
+   background-color: #3882f6;
+
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+    
+
+.big-text{
+    font-size: 36px;
+    color: #f9faf8;
+}
+
+.small-text{
+    color: #e5e7eb;
+    margin: 4px;
+}
+
+.sign-up button{
+    border-radius: 10px;
+    padding: 4px 24px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #f9faf8;
+    border: 1px #f9faf8 solid;
 }
